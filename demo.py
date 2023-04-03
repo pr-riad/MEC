@@ -11,5 +11,5 @@ X, y = make_blobs(n_samples=n_samples, centers = n_centers, random_state=random_
 k = mec_eval(X, k_min = 2, k_max = 10, disp = True) 
 
 print()
-print("predecte n_cluster = ", k)
+print("Predicted n_cluster = ", k)
 print("GT n_cluster = ", len(np.unique(y)))
